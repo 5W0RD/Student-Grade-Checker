@@ -8,6 +8,8 @@ public class CalculatorGUI{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout(FlowLayout.LEFT,20,10));
 
+        JButton btnRslt = new JButton("Show Result");
 
+frame.add(btnRslt);
 
 frame.setVisible(true);}}
