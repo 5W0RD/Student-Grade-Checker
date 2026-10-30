@@ -12,9 +12,9 @@ public class CalculatorGUI {
         frame.setLayout(null);
 
         JLabel lblNum1 = new JLabel("Enter #1 ");
-        lblNum1.setBounds(300,50,120,40);
+        lblNum1.setBounds(0,50,120,40);
         JTextField txtNum1 = new JTextField(10);
-        txtNum1.setBounds(350,50,120,40);
+        txtNum1.setBounds(50,50,120,40);
         //JLabel lblNum2 = new JLabel("Enter #2");
         //JTextField txtNum2 = new JTextField(15);
         
