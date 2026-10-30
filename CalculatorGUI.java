@@ -8,24 +8,21 @@ public class CalculatorGUI{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout(FlowLayout.LEFT,20,10));
 
-        JLabel lblCalc1 = new JLabel("Enter #1 ");
+        JLabel lblNum1 = new JLabel("Enter #1 ");
         JTextField txtNum1 = new JTextField(15);
-        JLabel lblCalc2 = new JLabel("Enter #2");
+        JLabel lblNum2 = new JLabel("Enter #2");
         JTextField txtNum2 = new JTextField(15);
 
         JButton btnRslt = new JButton("Show Result");
         JButton clearButton = new JButton("Clear");
         clearButton.setBounds(170, 140, 120, 30);
 
-        frame.add(lblCalc1);
+        frame.add(lblNum1);
         frame.add(txtNum1);
-        frame.add(lblCalc2);
+        frame.add(lblNum2);
         frame.add(txtNum2);
         frame.add(btnRslt);
         frame.add(clearButton);
-
-
-
 
 frame.setVisible(true);
 }
