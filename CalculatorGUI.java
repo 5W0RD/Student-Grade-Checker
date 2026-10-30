@@ -25,6 +25,9 @@ public class CalculatorGUI{
         frame.add(clearButton);
 
 
-});
 
-frame.setVisible(true);}}
+
+frame.setVisible(true);
+}
+}
+
