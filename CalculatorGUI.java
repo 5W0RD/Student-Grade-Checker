@@ -14,11 +14,17 @@ public class CalculatorGUI{
         JTextField txtNum2 = new JTextField(15);
 
         JButton btnRslt = new JButton("Show Result");
+        JButton clearButton = new JButton("Clear");
+        clearButton.setBounds(170, 140, 120, 30);
 
         frame.add(lblCalc1);
         frame.add(txtNum1);
         frame.add(lblCalc2);
         frame.add(txtNum2);
         frame.add(btnRslt);
+        frame.add(clearButton);
+
+
+});
 
 frame.setVisible(true);}}
